@@ -3,14 +3,16 @@
     /* min-height: 80px; */
     margin-bottom: 20px;
     border: 1px solid transparent;
+    background-color: antiquewhite;
   }
 
 .navbar-header a{
     font-size: 2em;
 }
 
-.nav-list a{
+#nav-list a{
     text-align: center;
+    background-color: #ffd770;
 }
 
 .nav-list a:hover{
