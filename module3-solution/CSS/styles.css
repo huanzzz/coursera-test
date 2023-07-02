@@ -1,0 +1,59 @@
+.navbar {
+    position: relative;
+    /* min-height: 80px; */
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+  }
+
+.navbar-header a{
+    font-size: 2em;
+}
+
+.nav-list a{
+    text-align: center;
+}
+
+.nav-list a:hover{
+    background: #E7E7E7;
+}
+
+#header{
+    text-align: center;
+}
+
+.row h2{
+    text-align: center;
+}
+
+#Chicken, #Beef, #Sushi{
+    background: #c9c9c9;
+    margin: 5px;
+}
+
+#home-tiles p{
+    margin: 20px auto 20px;
+    font-size: 1.2em;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  }
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    #home-tiles{
+        margin: 40px;
+    }
+
+}
